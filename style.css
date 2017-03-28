@@ -1,0 +1,53 @@
+body{
+
+  background-image: url("kikoi.jpg");
+}
+
+#left-container{
+
+  width: 35%;
+  
+}
+
+#right-container{
+  
+  width: 65%;
+ 
+}
+
+#right-container div{
+  margin: 15px;
+ 
+}
+
+.wordDiv{
+  text-align: center;
+  margin: 25px;
+
+}
+
+li:nth-child(odd){
+  color: #000066
+}
+li:nth-child(even){
+  color: #cc0000
+}
+ul{
+  list-style: none;
+}
+
+.removeBtn{
+    cursor: pointer;
+    /*width: 15px;
+    height: 15px;*/
+    border: none;
+}
+
+.undoBtn{
+    cursor: pointer;
+    /*width: 20px;
+    height: 20px;*/
+    border: none;
+    float: right;
+}
+
